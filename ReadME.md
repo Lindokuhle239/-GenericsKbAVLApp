@@ -32,15 +32,17 @@ An AVL Tree implementation for storing and retrieving knowledge base entries wit
 - **Automated testing** with randomized subsets
 
 ## Project Structure
+```
 ├── src/
-│ ├── Data.java
-│ ├── GenericsKbAVLApp.java
-│ ├── GenericsKbAVLAppTester.java
-│ └── Node.java
+│   ├── Data.java
+│   ├── GenericsKbAVLApp.java
+│   ├── GenericsKbAVLAppTester.java
+│   └── Node.java
 ├── bin/
 ├── doc/
 ├── Makefile
 └── README.md
+```
 
 
 ## Requirements
