@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"Assignment","l":"Data"},{"p":"Assignment","l":"GenericsKbAVLApp"},{"p":"Assignment","l":"Node"}];updateSearchResults();

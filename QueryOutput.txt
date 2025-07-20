@@ -1,0 +1,10 @@
+Term not found: University of Cape Town
+Term not found: Computer Science
+Term not found: critical
+Term not found: botulinum
+Term not found: Lindokuhle
+Term "soft drink" found. Sentence is "Soft drinks are beverages.", and the confidence score is 1.0
+Term "tadpole larva" found. Sentence is "Tadpole larvae have features.", and the confidence score is 1.0
+Term "wild garlic" found. Sentence is "A wild garlic is a bulbous plant", and the confidence score is 1.0
+Term "upland" found. Sentence is "An upland is elevation", and the confidence score is 1.0
+Term "mineral water" found. Sentence is "Mineral water is carbonated water.", and the confidence score is 0.74239581823349
