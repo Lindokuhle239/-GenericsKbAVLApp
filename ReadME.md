@@ -7,6 +7,7 @@ An AVL Tree implementation for storing and retrieving knowledge base entries wit
 
 ## Table of Contents
 - [Features](#features)
+- [Step-by-Step Guide](#step-by-step-guide)
 - [Project Structure](#project-structure)
 - [Requirements](#requirements)
 - [Installation](#installation)
@@ -29,6 +30,89 @@ An AVL Tree implementation for storing and retrieving knowledge base entries wit
   - Measures insert/search operations
 - **User-friendly menu** interface
 - **Automated testing** with randomized subsets
+
+## Step-by-Step Guide
+
+1. Loading a Knowledge Base File
+- Run the application:
+```bash
+make run
+```
+
+- From the main menu, select **option 1**
+- Enter the path to your knowledge base file when prompted:
+```
+Enter file name: GenericsKB.txt
+```
+- The system will confirm successful loading:
+```
+Knowledge base loaded successfully.
+```
+
+2. Searching for a Term
+
+- From the main menu, select **option 4**
+- Enter the term you want to search for:
+```
+Enter term to search: mineral water
+```
+- The system will display results:
+```
+Term "mineral water" found. Sentence is "Mineral water is carbonated water.", and the confidence score is 1.0
+```
+
+3. Running Performance Experiments
+
+- From the main menu, select **option 7**
+- Enter the subset size (e.g., 5000):
+```
+Enter size of your subset: 5000
+```
+- The system will display operation counts:
+```
+Number of Insert Operations: 67236
+Number of Search Operations: 72236
+```
+
+4. Processing Query Files
+
+- Prepare a query file (e.g., `queries.txt`) with one term per line
+- From the main menu, select **option 5**
+-  Enter the query file path:
+```
+Enter file name for queries: queries.txt
+```
+- Results will be saved to `QueryOutput.txt`
+
+5. Viewing Tree Structure
+
+- From the main menu, select **option 6**
+- The system will display all nodes in level order:
+```
+Term: tree, Sentence: Trees remove carbon dioxide..., Confidence Score: 1.0
+Term: water, Sentence: Water is essential for..., Confidence Score: 0.95
+...
+```
+
+6. Adding a New Entry Manually
+
+- From the main menu, select **option 2**
+- Enter the term:
+```
+Enter term: photosynthesis
+```
+- Enter the sentence:
+```
+Enter statement: Photosynthesis converts light energy to chemical energy.
+```
+- Enter the confidence score:
+```
+Enter confidence score: 0.9
+```
+- The system will confirm:
+```
+Statement for photosynthesis has been updated
+```
 
 ## Project Structure
 ```
