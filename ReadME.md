@@ -14,7 +14,6 @@ An AVL Tree implementation for storing and retrieving knowledge base entries wit
 - [File Formats](#file-formats)
 - [Performance Testing](#performance-testing)
 - [Documentation](#documentation)
-- [License](#license)
 
 ## Features
 - **AVL Tree** implementation with automatic rebalancing
@@ -84,10 +83,12 @@ term<TAB>sentence<TAB>confidence_score
 
 2. Query File
 One term per line:
+```
 
 term1
 term2
 ...
+```
 
 ## Performance Testing
 The system includes instrumentation to measure:
